@@ -62,6 +62,7 @@ public class TC_AddCustomerTest_003 extends BaseClass{
 			logger.info("test case failed....");
 			captureScreen(driver,"addNewCustomer");
 			Assert.assertTrue(false);
+			System.out.println("Hello");
 		}
 			
 	}
